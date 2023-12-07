@@ -4,6 +4,14 @@
     box-sizing: border-box;
 }
 
+/* General styles */
+body {
+    min-height: 150vh;
+    display: flex;
+    flex-direction: column;
+    color: #ffffff;
+}
+
 
 /* Header */
 header {
@@ -13,9 +21,12 @@ header {
 /* Main  */
 main {
     background-color: rgb(235, 213, 23);
+    flex: 1 0 auto;
 }
 
 /* Footer */
 footer {
     background-color: chartreuse;
+    position: sticky;
+    bottom: 0;
 }
