@@ -98,7 +98,7 @@ The live link can be found here - <https://code-institute-org.github.io/love-run
 
 ## Credits
 
-Favicon image found at [Chess icons created by VectorPortal - Flaticon]{https://www.flaticon.com/free-icons/chess}.
+- Favicon image found at [Chess icons created by VectorPortal - Flaticon](https://www.flaticon.com/free-icons/chess)
 
 ### Content
 
