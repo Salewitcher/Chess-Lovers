@@ -28,15 +28,37 @@ header {
     box-shadow: 0 5px 5px #141414;
 }
 
+header a {
+    text-decoration: none;
+    color: inherit;
+}
+
 h1,
 h2,
 h3 {
     font-family: 'Oswald', sans-serif;
     color: #ffffff;
     text-shadow: 4px 4px 2px rgba(0, 0, 0, 0.8);
+    text-transform: uppercase;
+    letter-spacing: 3px;
 }
 
+#menu {
+    font-size: 120%;
+    letter-spacing: 3px;
+    list-style-type: none;
+}
 
+#menu>li {
+    margin-bottom: 1em;
+}
+
+.active {
+
+    border-bottom: 2px solid #ffffff;
+    border-top: 2px solid #ffffff;
+
+}
 
 a.transition {
     box-shadow: inset 0 0 0 0 #ffffff;
