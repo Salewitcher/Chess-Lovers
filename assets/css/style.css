@@ -20,7 +20,12 @@ body {
 
 /* Header */
 header {
-    background-color: #053718;
+    background-image: linear-gradient(to right top, #053718, #00302a, #00262e, #131c24, #141414);
+    padding: 0 1rem;
+    position: fixed;
+    z-index: 99;
+    width: 100%;
+    box-shadow: 0 5px 5px #141414;
 }
 
 h1,
@@ -32,7 +37,8 @@ h3 {
 }
 
 
-a {
+
+a.transition {
     box-shadow: inset 0 0 0 0 #ffffff;
     color: #ffffff;
     margin: 0 -.25rem;
@@ -41,9 +47,10 @@ a {
     text-shadow: 4px 4px 2px rgba(0, 0, 0, 0.6);
     text-decoration: none;
     border-radius: 50%;
+
 }
 
-a:hover {
+a.transition:hover {
     box-shadow: inset 100px 0 0 0 #ffffff;
     color: #053718;
 }
