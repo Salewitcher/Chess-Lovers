@@ -92,6 +92,7 @@ The live link can be found here - <https://code-institute-org.github.io/love-run
 
 - Favicon image found at [Chess icons created by VectorPortal - Flaticon](https://www.flaticon.com/free-icons/chess)
 - Links hover idea from [CSS Tricks](https://css-tricks.com/css-link-hover-effects/)
+- Icons found at [Font Awesome](https://fontawesome.com/icons)
 
 ### Content
 
