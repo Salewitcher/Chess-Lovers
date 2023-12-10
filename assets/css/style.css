@@ -115,14 +115,35 @@ nav {
 main {
     background-color: rgb(235, 213, 23);
     flex: 1 0 auto;
-    margin-top: 47px;
+    margin-top: 52px;
+
 }
 
 /* Footer */
 footer {
-    background-color: chartreuse;
+    background-image: linear-gradient(to right top, #053718, #00302a, #00262e, #131c24, #141414);
     position: sticky;
     bottom: 0;
+    box-shadow: 0 -5px 5px #141414;
+
+}
+
+i {
+    color: #ffffff;
+}
+
+#social-networks {
+    text-align: center;
+    padding: 20px;
+    display: flex;
+    justify-content: space-evenly;
+    list-style-type: none;
+
+}
+
+#social-networks i {
+    font-size: 170%;
+
 }
 
 /* Media query for tablets and larger screens (768px and up) */
