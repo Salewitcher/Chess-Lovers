@@ -54,6 +54,8 @@ h1:hover {
     font-size: 120%;
     letter-spacing: 3px;
     list-style-type: none;
+    padding-left: 12.8px;
+
 }
 
 #menu>li {
@@ -82,6 +84,17 @@ a.transition {
 a.transition:hover {
     box-shadow: inset 100px 0 0 0 #ffffff;
     color: #053718;
+}
+
+nav {
+    position: absolute;
+    background-image: linear-gradient(to right bottom, #053718, #00302a, #00262e, #131c24, #141414);
+    width: 100%;
+    left: 0;
+    box-shadow: 0 5px 5px #141414;
+    display: none;
+
+
 }
 
 
