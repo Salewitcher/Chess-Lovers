@@ -26,6 +26,9 @@ header {
     z-index: 99;
     width: 100%;
     box-shadow: 0 5px 5px #141414;
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
 }
 
 header a {
@@ -86,6 +89,7 @@ a.transition:hover {
     color: #053718;
 }
 
+/* Navbar dropdown */
 nav {
     position: absolute;
     background-image: linear-gradient(to right bottom, #053718, #00302a, #00262e, #131c24, #141414);
@@ -93,8 +97,22 @@ nav {
     left: 0;
     box-shadow: 0 5px 5px #141414;
     display: none;
+    top: 100%;
 
 
+}
+
+/* Navbar toggle */
+#nav-toggle:checked~nav {
+    display: block;
+}
+
+#nav-toggle {
+    display: none;
+}
+
+.nav-toggle-label {
+    font-size: 2rem;
 }
 
 
@@ -102,6 +120,7 @@ nav {
 main {
     background-color: rgb(235, 213, 23);
     flex: 1 0 auto;
+    margin-top: 47px;
 }
 
 /* Footer */
