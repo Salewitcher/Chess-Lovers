@@ -79,10 +79,7 @@ a.transition {
 
 }
 
-a.transition:hover {
-    box-shadow: inset 100px 0 0 0 #ffffff;
-    color: #053718;
-}
+
 
 /* Navbar dropdown */
 nav {
@@ -143,6 +140,7 @@ i {
 
 #social-networks i {
     font-size: 170%;
+    transition: .3s;
 
 }
 
@@ -179,15 +177,31 @@ i {
 
     }
 
-    #logo:hover {
-        font-size: 300%;
-        text-shadow: 4px 4px 2px rgba(196, 212, 95, 0.8);
-    }
-
     /* MAIN CONTENT */
     main {
         margin-top: 82px;
     }
 
+
+}
+
+/* Media query for tablets and larger screens (992px and up) */
+@media screen and (min-width: 992px) {
+
+    #social-networks i:hover {
+        font-size: 250%;
+
+
+    }
+
+    #logo:hover {
+        font-size: 300%;
+        text-shadow: 4px 4px 2px rgba(196, 212, 95, 0.8);
+    }
+
+    a.transition:hover {
+        box-shadow: inset 100px 0 0 0 #ffffff;
+        color: #053718;
+    }
 
 }
