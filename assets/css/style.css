@@ -36,9 +36,7 @@ header a {
     color: inherit;
 }
 
-h1,
-h2,
-h3 {
+h1 {
     font-family: 'Oswald', sans-serif;
     color: #ffffff;
     text-shadow: 4px 4px 2px rgba(0, 0, 0, 0.8);
@@ -110,10 +108,19 @@ nav {
 
 /* Main  */
 main {
-    background-color: rgb(235, 213, 23);
+
     flex: 1 0 auto;
     margin-top: 52px;
 
+}
+
+/* Background image section */
+#king {
+    height: 600px;
+    width: 100%;
+    background: url("../images/white-game-statue.jpg") no-repeat center center/cover;
+    color: #ffffff;
+    text-shadow: 4px 4px 2px rgba(0, 0, 0, 0.6);
 }
 
 /* Footer */
@@ -182,12 +189,18 @@ i {
         margin-top: 82px;
     }
 
+    /* Section */
+    #king {
+        height: 700px;
+    }
+
 
 }
 
 /* Media query for tablets and larger screens (992px and up) */
 @media screen and (min-width: 992px) {
 
+    /*Header*/
     #social-networks i:hover {
         font-size: 250%;
 
@@ -204,4 +217,16 @@ i {
         color: #053718;
     }
 
+    /* Main Content */
+    #king {
+        height: 800px;
+    }
+
+}
+
+/* Media query for large screens (1160px and up) */
+@media screen and (min-width: 1160px) {
+    #king {
+        height: 1050px;
+    }
 }
