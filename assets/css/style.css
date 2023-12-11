@@ -113,6 +113,7 @@ main {
 
     flex: 1 0 auto;
     margin-top: 52px;
+    position: relative;
 
 }
 
@@ -132,6 +133,14 @@ main {
     bottom: 20%;
     padding-left: 50px;
     width: 90%;
+}
+
+/* Contact section */
+#contact {
+    color: black;
+    bottom: 25px;
+    position: absolute;
+    left: 25px;
 }
 
 /* Footer */
