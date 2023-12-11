@@ -130,8 +130,8 @@ main {
 .king {
     position: absolute;
     bottom: 20%;
-    left: 5%;
-    width: 100%;
+    padding-left: 50px;
+    width: 90%;
 }
 
 /* Footer */
@@ -239,7 +239,7 @@ i {
     }
 
     .king {
-        font-size: 500%;
+        font-size: 400%;
     }
 
 

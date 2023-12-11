@@ -78,6 +78,7 @@ If this section grows too long, you may want to split it off into a separate fil
 
 - H1 hover grow didn`t work on larger screens
 - (Solution) Change font-size and transfer styling in media query
+- Missing part of screen fixed by adding padding px instead %
 
 ## Deployment
 
