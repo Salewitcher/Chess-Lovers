@@ -129,7 +129,9 @@ main {
 
 .king {
     position: absolute;
-    bottom: 50px;
+    bottom: 20%;
+    left: 5%;
+    width: 100%;
 }
 
 /* Footer */
@@ -203,6 +205,10 @@ i {
         height: 700px;
     }
 
+    .king {
+        font-size: 200%;
+    }
+
 
 }
 
@@ -230,6 +236,10 @@ i {
     #king {
         height: 800px;
 
+    }
+
+    .king {
+        font-size: 500%;
     }
 
 
