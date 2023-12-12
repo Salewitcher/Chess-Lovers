@@ -135,6 +135,12 @@ main {
     width: 90%;
 }
 
+/* Audio */
+audio {
+    width: 100%;
+    
+}
+
 /* Contact section */
 #contact {
     color: #053718;
