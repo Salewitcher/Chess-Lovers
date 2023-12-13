@@ -28,6 +28,17 @@ h3 {
     transition: .3s;
 }
 
+a {
+    font-family: 'Oswald', sans-serif;
+    color: #053718;
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.8);
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    text-decoration: none;
+    transition: .3s;
+
+}
+
 
 /* Header */
 header {
@@ -167,6 +178,7 @@ audio {
 .content-part h3 {
     color: #053718;
     text-align: center;
+    padding: 20px 0;
 
 }
 
@@ -176,7 +188,7 @@ audio {
 }
 
 img {
-    width: 70%;
+    width: 80%;
 }
 
 /* Contact section */
@@ -313,6 +325,11 @@ i {
     /* Content Main */
     .content-part {
         font-size: 200%;
+    }
+
+    a:hover {
+        font-size: 120%;
+
     }
 
     /* Contact Section */

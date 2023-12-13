@@ -95,6 +95,7 @@ The live link can be found here - <https://code-institute-org.github.io/love-run
 - Links hover idea from [CSS Tricks](https://css-tricks.com/css-link-hover-effects/)
 - Icons found at [Font Awesome](https://fontawesome.com/icons)
 - Chess images found at[Pexels](https://www.pexels.com/search/chess/)
+- Parts of text taken from [Way too Wise](<https://way2wise.com/chess/chess-quotes/>)
 
 ### Content
 
