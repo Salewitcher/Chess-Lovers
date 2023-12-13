@@ -157,6 +157,13 @@ audio {
 
 }
 
+.content-part {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
 .content-part h3 {
     color: #053718;
     text-align: center;
@@ -164,14 +171,13 @@ audio {
 }
 
 .content-part p {
-    padding: 10px 30px;
+    padding: 20px 30px;
 
 }
 
-.content-part img {
-    max-height: 200px;
+img {
+    width: 70%;
 }
-
 
 /* Contact section */
 #contact {
