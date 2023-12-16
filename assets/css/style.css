@@ -17,6 +17,7 @@ body {
     font-family: 'Lato', sans-serif;
 }
 
+
 h1,
 h2,
 h3 {
@@ -28,16 +29,19 @@ h3 {
     transition: .3s;
 }
 
-a {
+p a {
     font-family: 'Oswald', sans-serif;
+    box-shadow: inset 0 0 0 0 #ffffff;
     color: #053718;
-    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.8);
-    text-transform: uppercase;
-    letter-spacing: 1px;
+    margin: 0 -.25rem;
+    padding: 0.2rem 0.5rem;
+    transition: color .3s ease-in-out, box-shadow .3s ease-in-out;
+
     text-decoration: none;
-    transition: .3s;
+    border-radius: 50%;
 
 }
+
 
 
 /* Header */
@@ -68,7 +72,7 @@ header a {
 }
 
 #menu>li {
-    margin-bottom: 1em;
+    margin-bottom: 0.5em;
 }
 
 .active {
@@ -84,7 +88,7 @@ a.transition {
     margin: 0 -.25rem;
     padding: 0.2rem 0.5rem;
     transition: color .3s ease-in-out, box-shadow .3s ease-in-out;
-    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.6);
+
     text-decoration: none;
     border-radius: 50%;
 
@@ -147,13 +151,6 @@ main {
     width: 90%;
 }
 
-/* Audio */
-audio {
-    width: 100%;
-    background-color: #053718;
-    border: 3px solid #053718;
-
-}
 
 /* Content Main */
 #main-content {
@@ -211,6 +208,7 @@ footer {
     position: sticky;
     bottom: 0;
     box-shadow: 0 -5px 5px #141414;
+    line-height: 25px;
 
 }
 
@@ -261,10 +259,13 @@ i {
 
     #logo {
         font-size: 250%;
-        line-height: 80px;
+        line-height: 90px;
         margin: 0 0.7rem;
 
+
     }
+
+
 
     /* MAIN CONTENT */
     main {
@@ -303,14 +304,16 @@ i {
     }
 
     #logo:hover {
-        font-size: 300%;
-        text-shadow: 4px 4px 2px rgba(196, 212, 95, 0.8);
+
+        text-shadow: 4px 4px 2px #fcf700;
     }
 
     a.transition:hover {
         box-shadow: inset 100px 0 0 0 #ffffff;
         color: #053718;
     }
+
+
 
     /* Main Content */
     #king {
@@ -327,10 +330,12 @@ i {
         font-size: 200%;
     }
 
-    a:hover {
-        font-size: 120%;
-
+    p a:hover {
+        box-shadow: inset 100px 0 0 0 #053718;
+        color: #ffffff;
     }
+
+
 
     /* Contact Section */
     #contact {
