@@ -96,6 +96,7 @@ The live link can be found here - <https://code-institute-org.github.io/love-run
 - Icons found at [Font Awesome](https://fontawesome.com/icons)
 - Chess images found at[Pexels](https://www.pexels.com/search/chess/)
 - Parts of text taken from [Way too Wise](<https://way2wise.com/chess/chess-quotes/>)
+- Youtube responsiness code borrowed from[CSS Trick: How to make an embedded iframe responsive?](https://www.youtube.com/watch?v=QG7JQkeaJy4)
 
 ### Content
 
