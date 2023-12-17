@@ -135,17 +135,17 @@ main {
 /* Background image section */
 #king {
     min-height: 100vh;
-    background-attachment: fixed;
     background: url("../images/white-game-statue .jpg") no-repeat center center/cover;
+    background-attachment: fixed;
     color: #ffffff;
-    text-shadow: 4px 4px 2px rgba(0, 0, 0, 0.6);
+    text-shadow: 4px 4px 15px rgba(0, 0, 0, 0.6);
     position: relative;
 
 }
 
 .king {
     position: absolute;
-    bottom: 20%;
+    bottom: 50%;
     padding-left: 50px;
     width: 90%;
 }
@@ -203,6 +203,24 @@ img {
     height: 100%;
 }
 
+/* History page */
+
+#history {
+
+    line-height: 2rem;
+    height: 100%;
+
+
+}
+
+#history-section {
+    margin: 40px 5%;
+    padding: 15px 10px;
+    background-image: linear-gradient(to right bottom, #053718, #00302a, #00262e, #131c24, #141414);
+    text-align: center;
+    border-radius: 20px;
+}
+
 /*Sign Up Page*/
 
 /* Contact section Sign Up Page*/
@@ -218,6 +236,7 @@ img {
 #contact h3 {
     color: #053718;
 }
+
 
 
 /* Footer */
@@ -355,7 +374,20 @@ i {
         color: #ffffff;
     }
 
+    /* History Section */
 
+    #history-section {
+        font-size: 200%;
+    }
+
+    #history-section p {
+        line-height: 3rem;
+    }
+
+    #history-section h2,
+    h3 {
+        padding: 3rem;
+    }
 
     /* Contact Section */
     #contact {
