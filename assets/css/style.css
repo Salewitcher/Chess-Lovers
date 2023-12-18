@@ -243,7 +243,7 @@ img {
     padding: 30px;
     align-self: center;
     border-radius: 15px;
-    border: 2px solid rgb(230, 215, 13)
+    border: 2px solid #45feaf;
 }
 
 #signup-form>h2 {
@@ -256,7 +256,7 @@ img {
     width: 100%;
     height: 25px;
     margin: 5px 0 20px 0;
-    border: 1px solid #ffffff;
+
     border-radius: 3px;
     padding: 0 5px;
 }
@@ -279,6 +279,32 @@ img {
 label {
 
     padding-right: 5px;
+}
+
+@keyframes shake {
+
+    0%,
+    100% {
+        translate: 0;
+    }
+
+    25% {
+        translate: 8px 0;
+    }
+
+    75% {
+        translate: -8px 0;
+    }
+}
+
+input {
+    border: 1px solid #fe4567;
+
+}
+
+input:valid {
+    border-color: #45feaf;
+
 }
 
 #contact {
@@ -400,7 +426,7 @@ i {
     }
 
     .join-button:hover {
-        background-color: #ffee00;
+        background-color: #45feaf;
         color: #053718;
         opacity: 0.7;
     }
@@ -424,7 +450,7 @@ i {
 
     #logo:hover {
 
-        text-shadow: 4px 4px 2px rgb(230, 215, 13);
+        text-shadow: 4px 4px 2px #45feaf;
         scale: 1.2;
     }
 
