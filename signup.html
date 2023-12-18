@@ -44,24 +44,98 @@
     </header>
     <!--Main Content of the Page-->
     <main>
-        </section>
-        
-        <!--Contact-->
-        <section id="contact">
-            <h2>Contact</h2>
-            <hr />
+      <!--Sign Up Form-->
+
+      <section id="signup">
+        <form
+          id="signup-form"
+          method="POST"
+          action="https://formdump.codeinstitute.net"
+        >
+          <h2><i class="fa-solid fa-chess-pawn"></i> Checkmate People Now!</h2>
+          <label for="first_name">First Name</label>
+          <input
+            type="text"
+            name="first_name"
+            id="first_name"
+            class="text-input"
+            placeholder="First Name"
+            required
+          />
+          <br />
+          <label for="last_name">Last Name</label>
+          <input
+            type="text"
+            name="last_name"
+            id="last_name"
+            class="text-input"
+            placeholder="Last Name"
+            required
+          />
+          <br />
+          <label for="email_address">Email Address</label>
+          <input
+            type="email"
+            name="email_address"
+            id="email_address"
+            class="text-input"
+            placeholder="Email"
+            required
+          />
+          <br />
+          <div class="radio-buttons">
             <div>
-                <span style="font-weight: bold">Phone: </span>
-                <span>083 334 8706</span>
+              <label for="begginer">Begginer</label>
+              <input
+                type="radio"
+                name="begginer_signup"
+                id="begginer"
+                value="begginer"
+                required
+                checked
+              />
             </div>
             <div>
-                <span style="font-weight: bold">Email: </span>
-                <span>email@chesslovers.com</span>
+              <label for="intermediate">Trail</label>
+              <input
+                type="radio"
+                name="intermediate_signup"
+                id="intermediate"
+                value="intermediate"
+                required
+              />
             </div>
-        
-            <h3>Address</h3>
-            <p>The Oaks,<br />Stradbrook Hill,<br />Dublin</p>
-        </section>
+            <div>
+              <label for="pro">Both</label>
+              <input
+                type="radio"
+                name="pro_signup"
+                id="pro"
+                value="pro"
+                required
+              />
+            </div>
+          </div>
+          <button type="submit" class="join-button">Brace Yourself!</button>
+        </form>
+      </section>
+
+      <!--Contact-->
+      <section id="contact">
+        <h2>Contact</h2>
+        <hr />
+        <div>
+          <span style="font-weight: bold">Phone: </span>
+          <span>083 334 8706</span>
+        </div>
+        <div>
+          <span style="font-weight: bold">Email: </span>
+          <span>email@chesslovers.com</span>
+        </div>
+
+        <h3>Address</h3>
+        <p>The Oaks,<br />Stradbrook Hill,<br />Dublin</p>
+      </section>
     </main>
     <!--Footer of the Page-->
     <footer>
