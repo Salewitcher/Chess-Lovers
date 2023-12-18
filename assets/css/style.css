@@ -128,7 +128,8 @@ main {
     flex: 1 0 auto;
     margin-top: 52px;
     position: relative;
-
+    display: flex;
+    flex-direction: column;
 
 }
 
@@ -224,6 +225,62 @@ img {
 /*Sign Up Page*/
 
 /* Contact section Sign Up Page*/
+
+#signup {
+    background: linear-gradient(135deg, #2b953f 25%, transparent 25%), linear-gradient(225deg, #2b953f 25%, transparent 25%), linear-gradient(315deg, #2b953f 25%, transparent 25%), linear-gradient(45deg, #2b953f 25%, transparent 25%);
+    background-size: 3em 3em;
+    background-color: #223529;
+    background-position: 75%;
+    padding: 20px 10% 0 10%;
+    flex-grow: 1;
+    display: flex;
+    justify-content: center;
+}
+
+#signup-form {
+    color: #ffffff;
+    background-color: #223529;
+    padding: 30px;
+    align-self: center;
+    border-radius: 15px;
+    border: 2px solid rgb(230, 215, 13)
+}
+
+#signup-form>h2 {
+    margin-bottom: 20px;
+}
+
+.text-input {
+    background: transparent;
+    color: #ffffff;
+    width: 100%;
+    height: 25px;
+    margin: 5px 0 20px 0;
+    border: 1px solid #ffffff;
+    border-radius: 3px;
+    padding: 0 5px;
+}
+
+.radio-buttons {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.join-button {
+    margin-top: 20px;
+    border-radius: 10px;
+    padding: 15px 32px;
+    font-size: 100%;
+    background-color: #ffffff;
+    color: #223529;
+}
+
+label {
+
+    padding-right: 5px;
+}
+
 #contact {
     color: #053718;
     margin: 30px;
@@ -323,6 +380,31 @@ i {
         font-size: 120%;
     }
 
+    /* Sign Up Form */
+    #signup {
+        background-position: center;
+        position: relative;
+
+    }
+
+    #signup-form {
+        max-width: 600px;
+        position: absolute;
+        font-size: 150%;
+
+    }
+
+    .text-input:hover {
+        border-color: #ffee00;
+        opacity: 0.7;
+    }
+
+    .join-button:hover {
+        background-color: #ffee00;
+        color: #053718;
+        opacity: 0.7;
+    }
+
     /* Contact Section */
     #contact {
         font-size: 120%;
@@ -389,10 +471,12 @@ i {
         padding: 3rem;
     }
 
-    /* Contact Section */
+    /* Sign UP &Contact Section */
     #contact {
         font-size: 200%;
     }
+
+
 
 }
 
