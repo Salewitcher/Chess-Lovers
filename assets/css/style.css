@@ -136,7 +136,7 @@ main {
 /* Background image section */
 #king {
     min-height: 100vh;
-    background: url("../images/white-game-statue .jpg") no-repeat center center/cover;
+    background: url("../images/chess_king_1920px.jpg") no-repeat center center/cover;
     background-attachment: fixed;
     color: #ffffff;
     text-shadow: 4px 4px 15px rgba(0, 0, 0, 0.6);
@@ -455,7 +455,7 @@ i {
     }
 
     .king {
-        font-size: 400%;
+        font-size: 300%;
     }
 
     /* Content Main */
