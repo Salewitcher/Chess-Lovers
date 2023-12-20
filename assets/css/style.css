@@ -204,9 +204,7 @@ img {
     height: 100%;
 }
 
-iframe {
-    frameborder: 0;
-}
+
 
 /* History page */
 
@@ -218,7 +216,7 @@ iframe {
 
 }
 
-#history-section {
+.history-section {
     margin: 40px 5%;
     padding: 15px 10px;
     background-image: linear-gradient(to right bottom, #053718, #00302a, #00262e, #131c24, #141414);
@@ -283,22 +281,6 @@ iframe {
 label {
 
     padding-right: 5px;
-}
-
-@keyframes shake {
-
-    0%,
-    100% {
-        translate: 0;
-    }
-
-    25% {
-        translate: 8px 0;
-    }
-
-    75% {
-        translate: -8px 0;
-    }
 }
 
 input {
@@ -447,7 +429,7 @@ i {
 
     /*Header*/
     #social-networks i:hover {
-        scale: 1.5;
+        transform: scale(1.5);
 
 
     }
@@ -455,7 +437,7 @@ i {
     #logo:hover {
 
         text-shadow: 4px 4px 2px #45feaf;
-        scale: 1.2;
+        transform: scale(1.2);
     }
 
     a.transition:hover {
@@ -488,15 +470,15 @@ i {
 
     /* History Section */
 
-    #history-section {
+    .history-section {
         font-size: 200%;
     }
 
-    #history-section p {
+    .history-section p {
         line-height: 3rem;
     }
 
-    #history-section h2,
+    .history-section h2,
     h3 {
         padding: 3rem;
     }
