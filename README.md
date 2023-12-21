@@ -119,10 +119,13 @@ Chess Lovers is a club site that intends to gather people that like to learn, pl
 
 ### Fixed Bugs
 
-- H1 hover grow didn`t work on larger screens
-- (Solution) Change font-size and transfer styling in media query
-- Missing part of screen fixed by adding padding px instead %
+- H1 hover grow didn`t work on larger screens (solution: Change font-size and transfer styling in media query)
+- Missing part of screen (solution: fixed by adding padding px instead %)
 - scale:value; said command doesn`t exist (solution: transition: scale(value))
+
+
+### Errors
+
 - Closing tag on section missing (solution: Add closing tag)
 
 ## Deployment
