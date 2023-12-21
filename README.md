@@ -2,7 +2,7 @@
 
 Chess Lovers is a club site that intends to gather people that like to learn, play & enjoy the beautiful game of chess. This site will be targeted towards all ages regardless if they are begginers, intermediate or advanced. Chess Lovers will have the options for new students to sign up for classes but also for those that do not wish to learn but just to enjoy a game or two.
 
-![Responsive Mockup](https://github.com/lucyrush/readme-template/blob/master/media/love_running_mockup.png)
+![Responsive Mockup](https://salewitcher-chess-lovers-jn63rh6dx0.us2.codeanyapp.com/#/workspaces/Chess-Lovers)
 
 ## Features
 
@@ -86,7 +86,7 @@ The live link can be found here - <https://code-institute-org.github.io/love-run
 
 - Links hover idea from [CSS Tricks](https://css-tricks.com/css-link-hover-effects/)
 - Parts of text taken from [Way too Wise](<https://way2wise.com/chess/chess-quotes/>)
-- Youtube responsiness code borrowed from[CSS Trick: How to make an embedded iframe responsive?](https://www.youtube.com/watch?v=QG7JQkeaJy4)
+- Youtube responsiness code borrowed from [CSS Trick: How to make an embedded iframe responsive?](https://www.youtube.com/watch?v=QG7JQkeaJy4)
 - Some of form style found at [Front End Joe`s Page](https://frontendjoe.com/)
 - Sign Up page background created at [Superdesigner](https://superdesigner.co/tools/css-backgrounds)
 
