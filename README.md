@@ -2,7 +2,7 @@
 
 Chess Lovers is a club site that intends to gather people that like to learn, play & enjoy the beautiful game of chess. This site will be targeted towards all ages regardless if they are begginers, intermediate or advanced. Chess Lovers will have the options for new students to sign up for classes but also for those that do not wish to learn but just to enjoy a game or two.
 
-![Responsive Mockup](https://salewitcher-chess-lovers-jn63rh6dx0.us2.codeanyapp.com/#/workspaces/Chess-Lovers)
+![Responsive Mockup](media/amiresponsive_chess_lovers.png)
 
 ## Features
 
