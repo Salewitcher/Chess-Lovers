@@ -68,9 +68,11 @@ Chess Lovers is a club site that intends to gather people that like to learn, pl
 
 - **The Sign Up Page**
 
-  - This page will allow the user to get signed up to Love Running to start their running journey with the community. The user will be able specify if they would like to take part in road, trail or both types of running. The user will be asked to submit their full name and email address.
+  - This page will allow the user to get signed up to the chess club to start learning or competing with other players. The user will be able specify if they are a beginner, intermediate, or a pro player. The user will be asked to submit their full name and email address.
+  - The user will also be able to see contact for more information.
 
-![Sign Up](https://github.com/lucyrush/readme-template/blob/master/media/love_running_signup.png)
+![Sign Up Page](media/signup.png)
+![Sign Up Page](media/contact.png)
 
 - ## Testing
 
