@@ -144,16 +144,17 @@ The live link can be found here - <https://salewitcher.github.io/Chess-Lovers/>
 - Youtube responsiness code borrowed from [CSS Trick: How to make an embedded iframe responsive?](https://www.youtube.com/watch?v=QG7JQkeaJy4)
 - Some of form style found at [Front End Joe`s Page](https://frontendjoe.com/)
 - Sign Up page background created at [Superdesigner](https://superdesigner.co/tools/css-backgrounds)
+- Instructions on how to implement form validation on the Sign Up page was taken from [Love running](https://learn.codeinstitute.net/courses/course-v1:CodeInstitute+LRFX101+2023_Q2/courseware/e805068059af42af87681032aa64053f/fc8bba87c52a4d91b32d1c7c28b1d79b/?child=first)
 
 ### Content
 
 - The text for the History page was taken from [Wikipedia] (<https://www.wikipedia.org/>)
-- Instructions on how to implement form validation on the Sign Up page was taken from [Love running](https://learn.codeinstitute.net/courses/course-v1:CodeInstitute+LRFX101+2023_Q2/courseware/e805068059af42af87681032aa64053f/fc8bba87c52a4d91b32d1c7c28b1d79b/?child=first)
-- The icons in the footer & navbar menu were taken from [Font Awesome](https://fontawesome.com/)
 - Images taken from [Pexels](https://www.pexels.com/search/chess/)
+- Youtube video borrowed from[Gotham Chess](https://www.youtube.com/@GothamChess)
 
 ### Media
 
 - The favicon used on the home and sign up page is from [Chess icons created by VectorPortal - Flaticon](https://www.flaticon.com/free-icons/chess)
+- The icons in the footer & navbar menu were taken from [Font Awesome](https://fontawesome.com/)
 
 [Back To Top](#chess-lovers)
