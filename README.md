@@ -86,8 +86,15 @@ Chess Lovers is a club site that intends to gather people that like to learn, pl
 
 - HTML
   - No errors were returned when passing through the official [W3C validator](https://validator.w3.org/nu/#textarea)
+  
+![Landing Page Validation](media/html_landingpage_valid.png)
+![History Page Validation](media/html_history_valid.png)
+![SignUp Page Validation](media/html_signup_valid.png)
+
 - CSS
   - No errors were found when passing through the official [(Jigsaw) validator](https://jigsaw.w3.org/css-validator/validator)
+
+![CSS Validation](media/css_valid.png)
 
 ### Fixed Bugs
 
