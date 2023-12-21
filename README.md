@@ -77,9 +77,11 @@ Chess Lovers is a club site that intends to gather people that like to learn, pl
 - ## Testing
 
 ### Manual Testing
+
 - All links work properly
 - All hover effects work properly
 - Sign Up Form works properly 
+- Responsiveness works properly
 ![Sign Up Form](media/form.png)
 
 ### Validator Testing
@@ -95,6 +97,25 @@ Chess Lovers is a club site that intends to gather people that like to learn, pl
   - No errors were found when passing through the official [(Jigsaw) validator](https://jigsaw.w3.org/css-validator/validator)
 
 ![CSS Validation](media/css_valid.png)
+
+### Lighthouse Testing
+
+- All seems OK except the Mobile index.html.
+- Tried to resize images with better performance result but not in green.
+
+![index.html Mobile](media/index.html_mobile.png)
+![index.html Desktop](media/index.html_desktop.png)
+![history.html Mobile](media/history.html_mobile.png)
+![history.html Desktop](media/history.html_desktop.png)
+![signup.html Mobile](media/signup.html_mobile.png)
+![signup.html Desktop](media/signup.html_mobile.png)
+
+### Accessibility Testing
+
+- Two errors found on [Wave Web Accessibility](https://wave.webaim.org/)
+- Considered to add an opacity background on wrapper div.
+- Decided to leave like it is as a designer`s choice.
+![Wave Web Accessibility Screenshot](media/wave_webaim.png)
 
 ### Fixed Bugs
 
