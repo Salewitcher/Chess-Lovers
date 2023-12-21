@@ -156,4 +156,4 @@ The live link can be found here - <https://salewitcher.github.io/Chess-Lovers/>
 
 - The favicon used on the home and sign up page is from [Chess icons created by VectorPortal - Flaticon](https://www.flaticon.com/free-icons/chess)
 
-
+[Back To Top](#chess-lovers)
