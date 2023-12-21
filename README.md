@@ -6,7 +6,6 @@ Chess Lovers is a club site that intends to gather people that like to learn, pl
 
 ## Features
 
-In this section, you should go over the different parts of your project, and describe each in a sentence or so. You will need to explain what value each of the features provides for the user, focusing on who this website is for, what it is that they want to achieve and how your project is the best way to help them achieve these things.
 
 ### Existing Features
 
@@ -14,15 +13,17 @@ In this section, you should go over the different parts of your project, and des
 
   - Featured on all three pages, the full responsive navigation bar includes links to the Logo, Home page, History and Sign Up page and is identical in each page to allow for easy navigation.
   - This section will allow the user to easily navigate from page to page across all devices without having to revert back to the previous page via the ‘back’ button.
+  - It also has some nice animation on the logo and navbar links hover
 
-![Nav Bar](https://github.com/lucyrush/readme-template/blob/master/media/love_running_nav.png)
+![Nav Bar Desktop](media/navbar_desktop.png)
+![Nav Bar Mobile](media/navbar_mobile.png)
 
 - **The landing page image**
 
-  - The landing includes a photograph with text overlay to allow the user to see exactly which location this site would be applicable to.
-  - This section introduces the user to Love Running with an eye catching animation to grab their attention
+  - The landing includes a photograph with text overlay to attract the user to see that there is a chess club nearby which accepts new members
+  - This section introduces the user to Chess Lovers with an interesting chess piece picture to intrigue them
 
-![Landing Page](https://github.com/lucyrush/readme-template/blob/master/media/love_running_landing.png)
+![Landing Page](media/landing_page_image.png)
 
 - **Club Ethos Section**
 
