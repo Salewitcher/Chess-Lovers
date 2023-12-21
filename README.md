@@ -76,6 +76,12 @@ Chess Lovers is a club site that intends to gather people that like to learn, pl
 
 - ## Testing
 
+### Manual Testing
+- All links work properly
+- All hover effects work properly
+- Sign Up Form works properly 
+![Sign Up Form](media/form.png)
+
 ### Validator Testing
 
 - HTML
@@ -88,6 +94,8 @@ Chess Lovers is a club site that intends to gather people that like to learn, pl
 - H1 hover grow didn`t work on larger screens
 - (Solution) Change font-size and transfer styling in media query
 - Missing part of screen fixed by adding padding px instead %
+- scale:value; said command doesn`t exist (solution: transition: scale(value))
+- Closing tag on section missing (solution: Add closing tag)
 
 ## Deployment
 
@@ -108,13 +116,13 @@ The live link can be found here - <https://salewitcher.github.io/Chess-Lovers/>
 
 ### Content
 
-- The text for the History page was taken from Wikipedia 
+- The text for the History page was taken from [Wikipedia] (<https://www.wikipedia.org/>)
 - Instructions on how to implement form validation on the Sign Up page was taken from [Love running](https://learn.codeinstitute.net/courses/course-v1:CodeInstitute+LRFX101+2023_Q2/courseware/e805068059af42af87681032aa64053f/fc8bba87c52a4d91b32d1c7c28b1d79b/?child=first)
-- The icons in the footer were taken from [Font Awesome](https://fontawesome.com/)
+- The icons in the footer & navbar menu were taken from [Font Awesome](https://fontawesome.com/)
 - Images taken from [Pexels](https://www.pexels.com/search/chess/)
 
 ### Media
 
 - The favicon used on the home and sign up page is from [Chess icons created by VectorPortal - Flaticon](https://www.flaticon.com/free-icons/chess)
-- The images used for the gallery page were taken from this other open source site
+
 
